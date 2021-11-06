@@ -1,6 +1,9 @@
 package factorymethod;
 
-import factorymethod.operatorimpl.ExportDBOperator;
+import factorymethod.creator.ExportDBOperator;
+import factorymethod.creator.ExportOperator;
+import factorymethod.creator.ExportOperatorParams;
+import factorymethod.creator.ExportOperatorParamsExtend;
 
 /**
  * @Author: ZhangLingRan
@@ -11,10 +14,12 @@ public class Client {
 
     public static void main(String[] args) {
         // 创建需要使用的Creator对象
-        ExportOperator operator = new ExportDBOperator();
+        ExportOperatorParams operator = new ExportOperatorParamsExtend();
 
         // 调用导出方法
-        operator.export("测试文件");
+        operator.export("DB","测试文件");
+        operator.export("Text","测试文件");
+        operator.export("Xml","测试文件");
     }
 
 }

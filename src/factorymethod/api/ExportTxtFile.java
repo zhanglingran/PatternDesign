@@ -1,6 +1,4 @@
-package factorymethod.apiimpl;
-
-import factorymethod.ExportFileApi;
+package factorymethod.api;
 
 /**
  * @Author: ZhangLingRan
