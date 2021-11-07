@@ -1,6 +1,6 @@
 package factorymethod.creator;
 
-import factorymethod.api.ExportFileApi;
+import factorymethod.product.ExportFileApi;
 
 /**
  * @Author: ZhangLingRan

@@ -1,4 +1,4 @@
-package factorymethod.api;
+package factorymethod.product;
 
 /**
  * @Author: ZhangLingRan
